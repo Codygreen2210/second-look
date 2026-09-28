@@ -1,0 +1,16 @@
+{
+  "name": "second-look",
+  "owner": {
+    "name": "Codygreen2210"
+  },
+  "metadata": {
+    "description": "Try to break finished work before a person sees it."
+  },
+  "plugins": [
+    {
+      "name": "second-look",
+      "source": "./",
+      "description": "Try to break finished work before a person sees it."
+    }
+  ]
+}

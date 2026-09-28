@@ -1,0 +1,15 @@
+<!doctype html>
+<!-- Recreates a real card bug: fine at normal text, cut off (not scrollable) with larger text. -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Big text trap</title><meta name="description" content="Fixture.">
+<style>
+ body{margin:0;font-family:sans-serif;font-size:16px}
+ main{overflow-x:hidden;padding:16px}
+ .grid{display:grid;grid-template-columns:1fr;gap:14px}
+ .card{display:flex;gap:12px;border:2px solid #222;padding:12px 14px}
+ .desc{font-size:12.8px;white-space:nowrap;margin:0}
+</style></head>
+<body><main><h1>Corners</h1>
+ <div class="grid">
+  <a class="card" href="/good.html"><span>🎣</span><div><b>OUTDOORS</b><p class="desc">Hunting, fishing, camping, hiking, boats, dogs</p></div></a>
+ </div></main></body></html>

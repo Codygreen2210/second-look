@@ -1,0 +1,8 @@
+<!doctype html>
+<!-- A web font that fails to load: page-check must warn that layout results aren't trustworthy. -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Missing font</title><meta name="description" content="Fixture.">
+<style>
+ @font-face{font-family:"Gone Sans";src:url(/no-such-font.woff2) format("woff2")}
+ body{margin:0;font-family:"Gone Sans",sans-serif}
+</style></head><body><h1>Headline</h1></body></html>

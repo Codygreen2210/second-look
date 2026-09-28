@@ -1,0 +1,12 @@
+<!doctype html>
+<!-- Recreates a real banner bug: the heading's box fits, but a long word spills past it
+     and a clipping banner hides the overflow, so the page never scrolls sideways. -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Long word trap</title><meta name="description" content="Fixture.">
+<style>
+ body{margin:0;font-family:sans-serif;font-size:16px}
+ .banner{overflow:hidden;background:#2e9e6a;padding:16px;display:flex;gap:14px;align-items:center}
+ .icon{flex:0 0 56px;height:56px;background:#fff}
+ h1{font-size:42px;letter-spacing:2px;margin:0;min-width:0;line-height:1}
+</style></head>
+<body><div class="banner"><div class="icon"></div><h1>WILDERNESS HUNTING &amp; FISHING</h1></div></body></html>

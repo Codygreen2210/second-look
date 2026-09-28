@@ -1,0 +1,10 @@
+{
+  "name": "second-look",
+  "version": "0.1.0",
+  "description": "Try to break finished work before a person sees it: phone/large-text page checks, a claims checker for dates and numbers, and a fresh-eyes breaker agent that never saw how the work was made.",
+  "author": {
+    "name": "Cody Green"
+  },
+  "repository": "https://github.com/Codygreen2210/second-look",
+  "license": "MIT"
+}

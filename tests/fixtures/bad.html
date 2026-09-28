@@ -1,0 +1,24 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+ body{margin:0;font-family:sans-serif}
+ .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;padding:16px}
+ .card{border:1px solid #ccc;padding:12px}
+ .desc{white-space:nowrap}
+ .cut{width:120px;overflow:hidden;white-space:nowrap}
+ .tiny{font-size:9px}
+ .icon{display:inline-block;width:16px;height:16px;background:#333}
+</style></head>
+<body>
+ <h1>Bad page</h1>
+ <div class="grid">
+  <div class="card"><b>Outdoors</b><p class="desc">Hunting, fishing, camping, hiking and everything that happens outside the house</p></div>
+  <div class="card"><b>Garage</b><p class="desc">Trucks, engines, tools, builds and the stuff you fix on Saturday morning</p></div>
+ </div>
+ <div class="cut">This label is way too long for its box and gets chopped</div>
+ <p class="tiny">fine print nobody can read</p>
+ <a class="icon" href="/x" aria-label="share"></a>
+ <img src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" width="40" height="40">
+ <a href="/missing-page">dead link</a>
+ <script>setTimeout(()=>{ undefinedFunction() }, 10)</script>
+</body></html>

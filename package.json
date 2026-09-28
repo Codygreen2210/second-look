@@ -1,0 +1,22 @@
+{
+  "name": "second-look",
+  "version": "0.1.0",
+  "description": "Checks a web page the way real visitors see it: phone widths, larger text turned on, cut-off buttons and words, broken links and JavaScript errors. Plain-English report.",
+  "type": "module",
+  "bin": {
+    "second-look": "checks/page-check.mjs"
+  },
+  "files": ["checks/", "agents/", "skills/", ".claude-plugin/", "misses.md", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs && python3 -m unittest discover -s tests -p 'test_*.py'",
+    "postinstall": "echo 'second-look: run `npx playwright install chromium` once if you have not already.'"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["responsive", "mobile", "testing", "layout", "accessibility", "vibe-coding", "claude-code", "playwright"],
+  "author": "Cody Green",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/Codygreen2210/second-look" }
+}
