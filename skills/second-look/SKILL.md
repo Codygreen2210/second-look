@@ -19,7 +19,7 @@ These are cheap, fast, and don't get tired. Run every one that applies:
 
 | The work includes | Run |
 |---|---|
-| Web pages (new or changed) | `node checks/page-check.mjs <url> [more urls] --out <dir>`: phone widths with normal and 130% text, sideways overflow, cut-off content, JS errors, failed requests, titles. Add `--links` to test links. Look at the screenshots. |
+| Web pages (new or changed) | `npx second-look <url> [more urls] --out <dir>` (first time only: `npx playwright install chromium`): phone widths with normal and 130% text, sideways overflow, cut-off content, JS errors, failed requests, titles. Add `--links` to test links. Look at the screenshots. |
 | Text with dates, numbers, totals, percentages (reports, posts, schedules) | `python3 checks/claims_check.py <file>`, or pipe text in with `-`. |
 | Code | The project's own build, type check, lint and tests. |
 
